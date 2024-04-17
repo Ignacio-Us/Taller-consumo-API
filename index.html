@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <form id="form">
+            <div>
+                <label for="id-pkmn">Ingrese el ID del pokemon</label>
+                <br><br>
+                <input type="number" name="id-pkmn" id="id-pkmn" min="1">
+            </div>
+            <br>
+            <button type="submit">Buscar</button>
+        </form>
+    </div>
+    
+    <div id="desc-pkmn">
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="consumo-api.js"></script>
+</body>
+</html>
